@@ -53,7 +53,7 @@ export default function Chat() {
   }, [messages]);
 
   return (
-    <div className="flex flex-col h-screen px-64 py-16 bg-gray-100">
+    <div className="flex flex-col h-screen px-64 py-18 bg-gray-100">
       {/* Top Buttons */}
     <div className="mb-4 flex space-x-4">
         <button
@@ -70,9 +70,9 @@ export default function Chat() {
             className={`flex items-center px-4 rounded ${
                 selectedAPI === 'piyush' ? 'bg-green-600 text-white' : 'bg-white text-green-600 border border-green-600'
             }`}
-        >
+        > 
             <Image src={piyush} alt="Piyush Icon" className="mr-2 w-12 h-12 rounded-full" /> {/* Replace with your icon URL */}
-            Piyush
+            Piyush 
         </button>
     </div>
 
